@@ -1,4 +1,4 @@
-END_DATE = 'June 15, 2024 00:00:00';
+END_DATE = 'June 30, 2024 15:30:00';
 
 const container = document.getElementById('countdown');
 
