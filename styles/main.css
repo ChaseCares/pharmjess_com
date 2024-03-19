@@ -1,0 +1,25 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.countdown_title {
+	font-size: 10vh;
+	font-weight: bold;
+}
+
+#countdown {
+	font-size: 7vh;
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	right: 1%;
+}
