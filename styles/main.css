@@ -17,6 +17,10 @@ body {
 	font-weight: bold;
 }
 
+#answer {
+	display: none;
+}
+
 footer {
 	text-align: center;
 	position: fixed;

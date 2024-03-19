@@ -12,3 +12,8 @@ function updateCountdown() {
 }
 updateCountdown();
 setInterval(updateCountdown, 1000);
+
+function show_answer() {
+	document.getElementById('answer_placeolder').style.display = 'none';
+	document.getElementById('answer').style.display = 'block';
+}
