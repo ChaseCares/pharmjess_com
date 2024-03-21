@@ -1,20 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #181818;
+	color: #cecdcd;
+}
+
+img {
+	max-width: 100%;
+	padding: 2em;
+}
+
+.imgs {
+	margin-bottom: 3em;
+	max-width: 100%;
+}
+
+p {
+	font-size: clamp(1em, 1.5em, 5vw);
+	max-width: 90%;
+	margin: 0 auto;
+	margin-bottom: 3em;
 }
 
 .container {
 	text-align: center;
-	margin-top: 100px;
 }
 
 .countdown_title {
-	font-size: 10vh;
+	font-size: clamp(1em, 10em, 13vw);
 	font-weight: bold;
+}
+.sub_heading {
+	font-size: clamp(1em, 3em, 5vw);
 }
 
 #countdown {
-	font-size: 7vh;
+	font-size: clamp(1em, 5em, 10vw);
 	font-weight: bold;
+	color: #d84c01;
 }
 
 #answer {
@@ -24,6 +52,8 @@ body {
 footer {
 	text-align: center;
 	position: fixed;
+	font-size: clamp(0.1em, 0.5em, 1.1vw);
+	padding: 0.3em;
 	bottom: 0;
-	right: 1%;
+	right: 0.3em;
 }
