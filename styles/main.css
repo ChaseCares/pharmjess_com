@@ -27,9 +27,9 @@ img {
 
 p {
 	font-size: clamp(1em, 1.5em, 5vw);
-	max-width: 90%;
+	max-width: clamp(10em, 40em, 80vw);
 	margin: 0 auto;
-	margin-bottom: 3em;
+	margin-bottom: 1em;
 }
 
 .container {
